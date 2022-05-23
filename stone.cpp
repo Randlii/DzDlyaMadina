@@ -45,7 +45,7 @@ int main()
     int* P;
     int** T;
     ifstream F;
-    F.open("TextFile1.txt");
+    F.open("TextFile2.txt");
     F >> NStones;
     F >> WMAX;
     P = new int[NStones + 1];
